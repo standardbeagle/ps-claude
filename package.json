@@ -1,0 +1,34 @@
+{
+  "name": "ps-claude",
+  "version": "1.0.0",
+  "description": "Windows PowerShell wrapper for Claude CLI",
+  "main": "ps-claude.exe",
+  "bin": {
+    "ps-claude": "./ps-claude.exe"
+  },
+  "scripts": {
+    "build": "make build",
+    "clean": "make clean",
+    "postinstall": "node -e \"if (process.platform === 'win32') { require('fs').chmodSync('./ps-claude.exe', 0o755); }\""
+  },
+  "keywords": [
+    "claude",
+    "cli",
+    "windows",
+    "wsl",
+    "powershell"
+  ],
+  "author": "",
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/ps-claude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ps-claude/issues"
+  },
+  "homepage": "https://github.com/your-username/ps-claude#readme"
+}
