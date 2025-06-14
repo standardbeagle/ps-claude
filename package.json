@@ -1,5 +1,5 @@
 {
-  "name": "ps-claude",
+  "name": "@standardbeagle/ps-claude",
   "version": "1.0.0",
   "description": "Windows PowerShell wrapper for Claude CLI",
   "main": "ps-claude.exe",

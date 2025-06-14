@@ -1,6 +1,6 @@
 # ps-claude
 
-A Windows PowerShell wrapper for the Claude CLI tool that bridges Windows environments with WSL (Windows Subsystem for Linux).
+A Windows PowerShell wrapper for the Claude CLI tool that bridges Windows environments with WSL (Windows Subsystem for Linux). You must have already have installed claude in your default WSL2 distro.
 
 ## What it does
 
@@ -14,12 +14,12 @@ A Windows PowerShell wrapper for the Claude CLI tool that bridges Windows enviro
 
 ### One-line PowerShell Install
 ```powershell
-iwr -useb https://github.com/your-username/ps-claude/releases/latest/download/ps-claude.exe -outfile ps-claude.exe
+iwr -useb https://github.com/standardbeagle/ps-claude/releases/latest/download/ps-claude.exe -outfile ps-claude.exe
 ```
 
 ### NPM Install
 ```bash
-npm install -g ps-claude
+npm install -g @standardbeagle/ps-claude
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ ps-claude
 
 # Pass arguments
 ps-claude --help
-ps-claude chat "Hello Claude"
+ps-claude -p "Hello Claude"
 
 # Works from any Windows directory
 cd C:\MyProject
