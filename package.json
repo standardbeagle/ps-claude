@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/ps-claude.git"
+    "url": "git+https://github.com/standardbeagle/ps-claude.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/ps-claude/issues"
+    "url": "https://github.com/standardbeagle/ps-claude/issues"
   },
-  "homepage": "https://github.com/your-username/ps-claude#readme"
+  "homepage": "https://github.com/standardbeagle/ps-claude#readme"
 }
